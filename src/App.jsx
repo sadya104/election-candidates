@@ -1,15 +1,15 @@
 import NavBar from './components/Navbar'
 import Card from './components/Card'
 import List from './components/List'
-// import "./App.css";
+import "/App.css";
 
 
 function App() {
 
   return (
     <div className='app'>
-      <h2>People</h2>
     <NavBar />
+    <h2 className='app-header'>People</h2>
     <Card />
     <List />
 

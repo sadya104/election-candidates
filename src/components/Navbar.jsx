@@ -1,11 +1,11 @@
 import React from 'react'
-import Flag from '../image.png'
-import './NavBar.css'
+import Flag from '/image.png'
+import './Navbar.css'
 
 const Navbar = () => {
   return (
     <div className='nav'>
-      <img src= {Flag} alt="flag img" />
+      <img className='nav-flag' src= {Flag} alt="flag img" />
     </div>
   )
 }

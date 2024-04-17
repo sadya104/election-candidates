@@ -8,9 +8,15 @@ body {
   #root {
     height: 100%;
     width: 100%;
+    background-color: #E3D3D2;
   }
   .app {
-    display: grid;
+    /* display: grid;
     grid-template-columns: 2fr;
-    grid-template-rows: 80px 2fr;
+    grid-template-rows: 50px 50px repeat(5, 1fr); */
+  }
+  .app-header{
+    margin: 30px;
+    font-size: 23px;
+    width: 100%;
   }
