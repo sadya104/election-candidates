@@ -10,7 +10,6 @@ function App() {
     <div className='app'>
     <NavBar />
     <h2 className='app-header'>People</h2>
-    <Card />
     <List />
 
 
