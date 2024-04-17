@@ -3,6 +3,7 @@ function App() {
 
   return (
     <>
+    <h2>Election Candiates</h2>
 
     </>
   )
